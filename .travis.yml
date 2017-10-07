@@ -1,7 +1,10 @@
 language: ruby
 rvm:
- - 2.2
- deploy:
+- 2.2
+deploy:
   provider: heroku
-  api_key: 074d4509-9b74-4cc0-92db-2bfc13bae0b6
+  api_key:
+    secure: Jzg5bPo3banr8V8kxUCt3HYiSpYiMeK2c1QgoE6xP1ACD7V5UuCnvbpIreTU2kQdzWbUJ12ZSShjRKgpRsTTouTmfe/ldzFlqjLRNhibe3NBapiTdue23wxGfK5LYD9zhWs89U0fc79p1sy39JN0dvp6kUFLhLng47YxuoKqskYAdDT0hju31UmgP78f5WLIdg1c0J/un11j7BEwEBBFOWzYXvSHcguOgxmMLouGfyjgdq6M49PIq4pnZKY5B5BAUrDRORBw2Q3JVwrZDuSO+hxgkR2lMWeBgtYQSWTIHqcJtbWmZYUI0+JGR0VZB4+LDRqWlsTKQMh9zkZENCDESUJLtQUJIFZJluxymG8rv90SXCu7Ay+G2SRGLbPs6BDH5skSALGmPIsAvR59sBusX5OBNNaMM3f+SNIsN19olhDbRfgoB2gygR3uJMX7uoSrekD2IU1edFaEG1Q3RYikvmdxrelQVWGqzWzOZXK53wR5ykFKVuox9hT/6GtNziGGHZ3mou7xlDCE4FVY71RK49KZ/luG9rjKzz8IsYFlwkeGGqJ/bsb63No9/9JGk+FBn9ItkrsKP21A+shPCwDrVmkccawn59AR8DGGWBX4G2h8KhYTdqRAjM8Gm7bnqtWdRnJ5CLSBmVCUU9MmXyc+jMZ+PgY3E0tbYOH4WrHQdNM=
   app: projetlpa
+  on:
+    repo: Integrale18/projetlpa
