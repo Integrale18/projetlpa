@@ -1,3 +1,7 @@
 language: ruby
 rvm:
  - 2.2
+ deploy:
+  provider: heroku
+  api_key: 074d4509-9b74-4cc0-92db-2bfc13bae0b6
+  app: projetlpa
