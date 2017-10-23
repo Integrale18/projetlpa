@@ -1,0 +1,13 @@
+class CreateStudents < ActiveRecord::Migration
+  def change
+    create_table :students do |t|
+      t.string :name
+      t.date :birthday
+      t.string :surname
+      t.float :lat
+      t.float :lon
+
+      t.timestamps
+    end
+  end
+end
