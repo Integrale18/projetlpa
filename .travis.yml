@@ -8,3 +8,4 @@ deploy:
   app: projetlpa
   on:
     repo: Integrale18/projetlpa
+run: "rake db:migrate"
