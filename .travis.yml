@@ -5,7 +5,7 @@ deploy:
   provider: heroku
   api_key:
     secure: Kt0qYiGVHhoT41TOr9cAuPXQrKAtuPAEhSUqfuZdcqWoIR8DrCDD6d3YnxjzJa4/oiWzHRtmX5Im2KEY5uUWEa7oF6HCM9uDKmDAmvrIH4XkVi4kbUGmbHL5OkWDeZ6oq8WjBGWwoVXcW+/T1OuQ0Sx7/Q9jROr7NYkhPIDdxj1D0SkmfYmw/Qa3dfmtsJ+4wW4oysAFafD8fcDx1DlKEUVNK7WWXMcB2JH8KIXoV8mlsVNack5Xbaq84u7Fi+aM8dtgDa9OzgCTlL5tk1pWdxut1X4/+sN5xT2gmkZ/3RXMEVew+HNUcZvzoSCuC4ptBcnw4FFHxRMzrYzGBZXDe2EHi50XPcOArv8wnlMwiNZtb/klshwq16LJJa8pNAQ2hPyrWo6EBg8mLm+W1i75AoHvpep3I4NqjTUia0ELeKYqMfDIT+FYpr+lB3ZhDrkcBPn7qTxe5fLFSMrQdB9X4zNmFVRind/z7Df7YeSM6thBm5BWgqMerIKWFS9xKwFIKNbnQd7QLdLtY5LG9b4iTh3KNrGrzqXyw5FWdx8iWWmuQHacgULUbVWdqxrALNofbJ+DqBW0WVh5e2Y9W49/9AI+wVb9FSwuTme1EwAJkS2fxW6z0QBomVuD4L3EXE0oxYRMP0BKBxirN/EvqPg4vx9U45QiAoIU6H67mIwib6o=
-  app: projetlpa
+  app: webintegrale
   on:
     repo: Integrale18/projetlpa
 run: "rake db:migrate"
