@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tow.name %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @tow.lon %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @tow.lat %>
+</p>
+
+<p>
+  <strong>Meteo:</strong>
+  <%= @meteo %>
+</p>
+
+<%= link_to 'Edit', edit_tow_path(@tow) %> |
+<%= link_to 'Back', tows_path %>

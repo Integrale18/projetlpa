@@ -1,0 +1,29 @@
+<h1>Listing tows</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Lon</th>
+      <th>Lat</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tows.each do |tow| %>
+      <tr>
+        <td><%= tow.name %></td>
+        <td><%= tow.lon %></td>
+        <td><%= tow.lat %></td>
+        <td><%= link_to 'Show', tow %></td>
+        <td><%= link_to 'Edit', edit_tow_path(tow) %></td>
+        <td><%= link_to 'Destroy', tow, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tow', new_tow_path %>
