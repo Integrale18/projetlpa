@@ -1,6 +1,8 @@
 class Tow < ActiveRecord::Base
   before_validation :loadposition
-  private 
+  validates :lat, :lon, presence: true
+  public 
+  
   def loadposition
     places = Nominatim.search(name).limit(1)
     if places.first
